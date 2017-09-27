@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#C55DB0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:#70146a;
+    transition: .2s ease-in-out;
+}
+
+a:hover{
+    color:#F85D2D;
+    transition: .2s ease-in-out;
+}
+
+.container{
+    display: grid;
+}
+
+.super{
+    position: relative;
+    width:100vw;
+    height: 100vh;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 10% auto;
+}
+
+.bg{
+    position: absolute;
+    width:200%;
+    height:auto;
+    margin-left: -75%;
+    margin-top: -100%;
+    z-index: -9999;
+    opacity: .3;
+}
+
+header.top{
+    grid-template-columns:1% 98% 1%;
+    grid-template-rows: 100%;
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    /* background-color: #70146a; */
+    padding:20px;
+}
+
+.logo{
+    grid-column-start:2;
+    grid-row-start:1;
+    grid-row-end: span 1;
+    display: flex;
+    align-items: center;
+}
+
+img.logo{
+    height:100%;
+    width:auto;
+}
+
+.logoText{
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    height:100%;
+    margin-left: 10px;
+    font-size: 30px;
+    color: #70146a;
+}
+
+span.top, span.bottom{
+    display: block;
+}
+
+span.bottom{
+    font-size: 20px;
+    letter-spacing: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+nav{
+    grid-column-start:2;
+    grid-row-start:1;
+    grid-row-end: span 1;
+    align-items: center;
+    margin-left: auto;
+    display:flex;
+}
+
+nav > ul{
+    display: flex;
+    width:200px;
+    justify-content: space-between;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+div.content{
+    display: flex;
+    flex-direction: column;
+    grid-column-start:2;
+    grid-column-end: span 1;
+    grid-row-start:2;
+    background-color:rgba(190,96,175,.9);
+    color: white;
+    font-size:20px;
+}
+
+header.content{
+    background-color:#70146a;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    font-size: 60px;
+    margin-bottom:20px;
+}
+
+h2{
+    width:60%;
+    text-align:center;
+    font-size: 30px;
+    margin:auto;
+    margin-bottom:10px;
+}
+
+ol{
+    padding:100px;
+    padding-top:50px;
+}
+
+ol > li{
+    margin-bottom:20px;
+    line-height:1.5;
+    font-size:25px;
+}
+
+li > ul {
+    margin-left:30px;
+    list-style: initial;
+}
+
+pre{
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 10px;
+    background-color:lightgray;
+    color: black;
+}
+
+.endnote{
+    text-align:center;
+    padding:10px;
+    border-bottom: 2px solid #70146a;
+    border-top: 2px solid #70146a;
+}
