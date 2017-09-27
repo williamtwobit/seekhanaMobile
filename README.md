@@ -37,8 +37,8 @@ Getting Started
 If you'd like to demo this app (or contribute to it!), you'll need to do a few things:
 
 1. Download Expo onto your smartphone if you don't already have it: 
-⋅⋅ * [Google Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www)
-⋅⋅ * [App Store (iDevices)](https://itunes.apple.com/app/apple-store/id982107779?ct=www&mt=8)
+  * [Google Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www)
+  * [App Store (iDevices)](https://itunes.apple.com/app/apple-store/id982107779?ct=www&mt=8)
 2. Clone this repository by running the following command in git-bash or your terminal:
 ```
 $ git clone https://github.com/wilm42/seekhanaMobile.git
