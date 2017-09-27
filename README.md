@@ -1,4 +1,4 @@
-![Seekhana Logo](./assets/images/mandala-logo.png)
+![Seekhana Logo](/assets/images/mandala-logo.png)
 
 What is Seekhana?
 -----------------
